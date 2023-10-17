@@ -84,3 +84,45 @@ span{
     box-shadow: 2px 2px 2px violet,
                 -2px -2px 2px aqua;
 }
+@media (max-width:1100px){
+    .form{
+        width: 35%;
+    }
+}
+@media (max-width:900px){
+    .form{
+        width: 50%;
+    }
+
+}
+@media (max-width:768px){
+    .form{
+        width: 50%;
+    }
+
+}
+@media (max-width:700px){
+    .form{
+        width: 60%;
+    }
+
+}
+@media (max-width:568px){
+    .form{
+        width: 60%;
+    }
+
+}
+@media (max-width:520px){
+    .form{
+        width: 70%;
+    }
+
+}
+@media (max-width:468px){
+    .form{
+        width: 100%;
+        height: 330px;
+    }
+
+}

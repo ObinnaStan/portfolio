@@ -1,0 +1,145 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.bi{
+  margin-left: -2px;
+}
+#title{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
+.title-contain{
+  width: 30%;
+}
+.title-contain h1{
+  font-weight: bold;
+}
+.buttons{
+  display: flex;
+  gap: 14px;
+}
+.botn{
+  padding: 10px;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  border: none;
+}
+.btn-hove:hover{
+  background-color: aquamarine;
+}
+.btn-light{
+  border: 1px solid #fff;
+  color: #fff;
+  background: transparent;
+}
+.btn-light:hover{
+  background-color: #fff;
+  color: black;
+}
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+.flex{
+  display: flex;
+  gap: 0.4em;
+}
+#features{
+  display:flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.dog-img{
+  text-align: center;
+}
+.dog{
+  border-radius: 50%;
+}
+.biz{
+  width: 160px;
+  height: 40px;
+}
+.bizness{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+ gap:20px;
+}
+.cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.8em;
+  width: 90%;
+  margin: 0 auto;
+}
+.textz, h3{
+  text-align: center;
+}
+
+.card-items{
+  border-radius: 5px;
+  border: 1px solid antiquewhite;
+}
+.btn-sign{
+  display: block;
+  width: 90%;
+  padding: 8px;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: inherit;
+}
+.btn-sign:hover{
+  background-color: rgb(83, 82, 82);
+  color: #fff;
+}
+.card-title{
+  border-bottom: 1px solid rgb(211, 207, 207);
+  background-color: rgb(39, 38, 38);
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+.card-title2{
+  border-bottom: 1px solid rgb(211, 207, 207);
+  padding: 10px;
+  border-radius: 5px;
+}
+.plan{
+  text-align: center;
+}
+#pricing p{
+  text-align: center;
+}
+#pricing{
+  margin-top: 60px;
+}
+#testimonial{
+  margin-top: 60px;
+}
+#testimonial h2{
+  text-align: center;
+}
+.profile-img{
+  padding-top:60px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .grid-container{
+            width: 700px;
+            height: 658px;
+            background-color: #000;
+            gap: 0.5em;
+            display: grid;
+            grid-template-columns: 3fr 2fr 1fr 1fr;
+        }
+        .grid-item{
+            background-color: #F0F1EC;
+        }
+        .red{
+            background-color:#E72F24;
+            grid-row: span 2;
+        }
+        .white{
+            background-color: #F0F1EC;
+        }
+        .white2{
+            background-color: #F0F1EC;
+            grid-column: span 3;
+            grid-row: span 2;
+        }
+        .blue{
+            background-color: #004592;
+        }
+        .yellow{
+            background-color: #F9D01E;
+        }
+        .white3{
+            background-color: #F0F1EC;
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+        .white4{
+            background-color: #F0F1EC;
+            grid-row: span 2;
+        }
+        .black{
+            background-color: #232629;
+        }
+        .white5{
+            grid-row: span 2;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item red"></div>
+        <div class="grid-item white2"></div>
+        <div class="grid-item white4"></div>  
+        <div class="grid-item white3 relative"></div>
+        <div class="grid-item blue"></div>
+        <div class="grid-item white5"></div> 
+        <div class="grid-item white"></div>
+          <div class="grid-item yellow"></div>
+          <div class="grid-item black"></div>
+          
+          
+      </div>
+</body>
+</html>       

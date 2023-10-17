@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="survey.css"/>
+  <title>Survey Form</title>
+</head>
+<body>
+  <header class="header">
+    <h1>freeCodeCamp Survey Form</h1>
+    <p>Thank you for taking the time to help us improve the platform</p>
+  </header>
+  <div class="container">
+    <form class="s-form">
+      <label for="name">Name
+      <input type="text" name="name" id="name" placeholder="Enter your name" required/>
+    </label>
+      <label class="label" for="mail">Email
+      <input type="email" name="mail" id="mail" placeholder="Enter your mail" required/>
+    </label>
+      <label class="label" for="age">Age(Optional)
+      <input type="number" name="age" id="age" placeholder="enter your age"/>
+      </label>
+      <label class="role" for="role">Which option best describes your current role
+        <select class="role-1" id="role">
+          <option disabled selected>Select Current role</option>
+          <option value="student">Student</option>
+          <option value="full time">Full time Job</option>
+          <option value="learners">Full time Learner</option>
+          <option value="prefer not to say">Prefer not to say</option>
+          <option value="others">others</option>
+        </select>
+      </label>
+      <label class="code" for="recommend">Would you recommend FreeCodeCamp to a friend?</label>
+      <br>
+      <input type="radio" name="recommend" id="definetly"/>
+      <label class="lab" for="definetly">Definetly</label>
+      <br>
+      <input type="radio" name="recommend" id="maybe"/>
+      <label class="lab" for="maybe">Maybe</label>
+      <br>
+      <input type="radio" name="recommend" id="notsure"/>
+      <label class="lab" for="notsure">Not Sure</label>
+      <br>
+      <label class="fav" for="feature">What is your favourite feature of FreeCodeCamp
+        <select class="feature" id="feature">
+          <option disabled selected>Select an option</option>
+          <option value="Challages">Challanges</option>
+          <option value="project">Projects</option>
+          <option value="community">Community</option>
+          <option value="open source">Open Source</option>
+        </select>
+      </label>
+      <br>
+      <label for="list">What Would you like to see improved? (check all that apply)</label>
+      <br>
+      <input type="checkbox" name="front-end" id="front-end" value="front-end"/>
+      <label class="lab" for="frnt-end">Front-End Projects</label>
+      <br>
+      <input type="checkbox" name="back-end" id="back-end" value="front-end"/>
+      <label class="lab" for="back-end">Back-End Projects</label>
+      <br>
+      <input type="checkbox" name="visualization" id="visualization" value="visualization"/>
+      <label class="lab" for="visualization">Data Visualization</label>
+      <br>
+      <input type="checkbox" name="challange" id="challange" value="challange"/>
+      <label class="lab" for="challange">Challanges</label>
+      <br>
+      <input type="checkbox" name="open-source" id="open-source" value="open-source"/>
+      <label class="lab" for="open-source">Open Source Community</label>
+      <br>
+      <input type="checkbox" name="video" id="video" value="video"/>
+      <label class="lab" for="video">Videos</label>
+      <br>
+      <input type="checkbox" name="wiki" id="wiki" value="wiki"/>
+      <label class="lab" for="wiki">Wiki</label>
+      <br>
+      <input type="checkbox" name="forum" id="forum" value="forum"/>
+      <label class="lab" for="forum">Forums</label>
+      <br>
+      <input type="checkbox" name="additional" id="additional" value="additional"/>
+      <label class="lab" for="additional">Additional Courses</label>
+      <br>
+      <label class="code" for="comment">Any Comments or Suggestion?
+        <br>
+        <textarea id="comment" name="comment" rows="6" cols="70">Enter Your Comment Here....</textarea>
+    <br>
+      </label>
+      <button type="button">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

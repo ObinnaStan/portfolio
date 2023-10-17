@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    font-family: sans-serif;
+}
+
+.header{
+    text-align: center;
+    color: aliceblue;
+}
+.header p{
+    font-size: 20px;
+    color: azure;
+    font-style: italic;
+}
+
+input[type=text], [type=email], [type=number]{
+    display:block;
+    width: 90%;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 6px;
+}
+
+.label{
+    display: block;
+    margin-top: 20px;
+}
+.role{
+    display:block;
+    margin-top: 20px;
+}
+.role-1{
+    display: block;
+    width: 90%;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+.container{
+    background-color:#1b1b32;
+    width:60%;
+    margin: 15px auto;
+    padding-bottom: 2.9em;
+}
+.lab{
+    display: inline-block;
+    padding-top:10px;
+}
+
+.s-form{
+    color: aliceblue;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+.code{
+    display: inline-block;
+    margin-top: 20px;
+}
+.fav{
+    display: block;
+    margin-top: 10px;
+}
+.feature{
+    display:block;
+    width: 90%;
+    padding: 8px;
+    border-radius:5px;
+    margin-top: 10px;
+}
+.bloc{
+    display: inline-block;
+}
+button{
+    background-color: green;
+    color: aliceblue;
+    width: 90%;
+    padding: 9px;
+    margin-top: 10px;
+    border-radius: 5px solid green;
+}
+textarea{
+    margin-top: 10px;
+}

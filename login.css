@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url('./images/night_blue\ mountain.jpg');
+    background-color: rgba(0, 0, 0, 2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+input[type=password], input[type=email]{
+    padding: 8px;
+    border: none;
+    width: 90%;
+    background: transparent;
+    color: #fff;
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+}
+.form h1{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.mail,
+.psw{
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    margin: 10px;
+}
+.check{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+.align{
+    color: #fff;
+    text-decoration: none;
+}
+.acc{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-top: 20px
+}
+.login{
+    width: 80%;
+    margin: 0 auto;
+}
+.form{
+    width: 30%;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    height: 300px;
+}
+#submit{
+    display: block;
+    padding: 8px;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 6px;
+    border-color: #fff;
+}
+span{
+    color: #fff;
+    background: transparent;
+}
+#submit:hover{
+    background-color: greenyellow;
+    box-shadow: 2px 2px 2px violet,
+                -2px -2px 2px aqua;
+}

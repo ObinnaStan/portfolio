@@ -217,6 +217,9 @@ th{
     }
 }
 @media (max-width:475px){
+    .container{
+        width: 100%;
+    }
     .cryptos{
        width: 100%;
        font-size: 0.4rem;
@@ -233,6 +236,9 @@ th{
     }
 }
 @media (max-width:375px){
+    .container{
+        width: 100%;
+    }
     .cryptos{
         width: 100%;
        font-size: 0.2rem;
@@ -242,6 +248,21 @@ th{
     }
     .main{
         width: 98%;
+    }
+}
+@media (max-width:320px){
+    .container{
+        width: 100%;
+    }
+    .cryptos{
+        width: 100%;
+       font-size: 0.15rem;
+    }
+    ul{
+        gap: 0.34em;
+    }
+    .main{
+        width: 100%;
     }
 }
 

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif "Poppins";
+}
+body{
+    background-image: url("./images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.contain-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 80vh;
+    color: #fff;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+span{
+    color: orange;
+    display: block;
+}
+.btn{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: orange;
+    border-radius: 14px;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.btn:hover{
+    filter: hue-rotate(90deg);
+    box-shadow: 2px 2px 1px aqua,
+    -2px -2px 1px violet;
+}
+.crypto{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.left{
+   align-self: flex-end;
+  
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width:60px;
+    margin-top: 10px;
+}
+.main{
+    width: 40%;
+}
+.main h1{
+    font-size: 4rem;
+}
+.lang{
+    background: transparent;
+    border-radius: 6px;
+    outline: none;
+    border: 2px solid #fff;
+    color: #fff;
+}
+option{
+    background-color: rgb(169, 62, 245);
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+fotter p{
+    color: #fff;
+}
+@media (max-width:475px){
+    .main{
+        margin: 0 auto;
+        width: 50%;
+    }
+    .size{
+        width: 50px;
+    }
+    .flex{
+        margin-top: 20px;
+    }
+    li a{
+        font-size: 0.5rem;
+    }
+    ul{
+        gap: 1em;
+    }
+}

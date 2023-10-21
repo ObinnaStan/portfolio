@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif "Poppins";
+}
+body{
+    background-image: url("./images/background_cryp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.contain-2{
+    color: #fff;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+span{
+    color: orange;
+    display: block;
+}
+.btn{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: orange;
+    border-radius: 14px;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.btn:hover{
+    filter: hue-rotate(90deg);
+    box-shadow: 2px 2px 1px aqua,
+    -2px -2px 1px violet;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width:60px;
+    margin-top: 10px;
+}
+.main{
+    width: 40%;
+    margin-top: 50px;
+}
+.main h1{
+    font-size: 4rem;
+}
+.lang{
+    background: transparent;
+    border-radius: 6px;
+    outline: none;
+    border: 2px solid #fff;
+    color: #fff;
+}
+option{
+    background-color: #232D3F;
+}
+.bitcoin{
+    display: flex;
+    gap: 20px;
+}
+.image{
+    display: flex;
+    align-items: center;
+}
+td{
+    margin-top: 40px;
+    padding: 10px;
+}
+td:hover{
+    background-color: #008170;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.cryptos{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    background-color: #232D3F;
+    border-radius: 16px;
+}
+.first{
+    position: relative;
+}
+.first:hover ::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    top: 20px;
+    left: 0;
+    background-color: aqua;
+    opacity: 1;
+    transform: scale(1);
+    transition: 2s;
+}
+th{
+    cursor: pointer;
+}
+@media (max-width:1023px){
+    .main{
+        margin: 0 auto;
+        width: 50%;
+    }
+    .cryptos{
+        width: 90%;
+        font-size: 0.8rem;
+        margin: 10px auto;
+     }
+}
+@media (max-width:800px){
+    .cryptos{
+       width: 100%;
+       margin-top: 20px;
+    }
+}
+@media (max-width:764px){
+    .cryptos{
+       width: 100%;
+       font-size: 0.8rem;
+    }
+}
+@media (max-width:700px){
+    .cryptos{
+       width: 100%;
+       font-size: 0.8rem;
+    }
+    .main{
+        width:70%
+    }
+}
+@media (max-width:658px){
+    .cryptos{
+       width: 100%;
+       font-size: 0.7rem;
+    }
+}
+@media (max-width:630px){
+    .cryptos{
+       width: 100%;
+       font-size: 0.6rem;
+    }
+    .bitcoin p{
+        margin-top: 6px;
+    }
+}
+@media (max-width:580px){
+    .cryptos{
+       width: 100%;
+       font-size: 0.5rem;
+    }
+    .lang{
+        width: 40px;
+    }
+    ul{
+        gap: 0.6em;
+    }
+}
+@media (max-width:540px){
+    .cryptos{
+       width: 100%;
+       font-size: 0.5rem;
+    }
+    ul{
+        gap: 0.6em;
+    }
+    .main{
+        width: 100%;
+    }
+}
+@media (max-width:500px){
+    .cryptos{
+       width: 100%;
+       font-size: 0.48rem;
+       font-weight: 50px;
+    }
+    ul{
+        gap: 0.6em;
+    }
+    .main{
+        width: 100%;
+    }
+    .main h1{
+        font-size: 3rem;
+    }
+}
+@media (max-width:475px){
+    .cryptos{
+       width: 100%;
+       font-size: 0.4rem;
+       font-weight: 50px;
+    }
+    ul{
+        gap: 0.5em;
+    }
+    .main{
+        width: 90%;
+    }
+    .main h1{
+        font-size: 2rem;
+    }
+}
+@media (max-width:375px){
+    .cryptos{
+        width: 100%;
+       font-size: 0.2rem;
+    }
+    ul{
+        gap: 0.4em;
+    }
+    .main{
+        width: 98%;
+    }
+}
+
+
